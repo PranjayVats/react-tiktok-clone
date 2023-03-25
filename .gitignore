@@ -1,26 +1,30 @@
+tiktok-backend/node_modules
+tiktok-backend/.env
+tiktok-backend/.netlify
+
+
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
-/.pnp
+tiktok-frontend/node_modules
+tiktok-frontend/.pnp
 .pnp.js
 
 # testing
-/coverage
+tiktok-frontend/coverage
 
 # production
-/build
+tiktok-frontend/build
 
 # misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+tiktok-frontend/.DS_Store
+tiktok-frontend/.env.local
+tiktok-frontend/.env.development.local
+tiktok-frontend/.env.test.local
+tiktok-frontend/.env.production.local
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.firebase
-.firbaserc
-
+tiktok-frontend/npm-debug.log*
+tiktok-frontend/yarn-debug.log*
+tiktok-frontend/yarn-error.log*
+tiktok-frontend/.firebase
+tiktok-frontend/.firbaserc
